@@ -1,0 +1,143 @@
+
+body{
+  color: #868686;
+}
+.stroke{
+  stroke-width: 8px;
+  stroke: white;
+  fill: none;
+  }
+
+  .background{
+  background-color: white;
+  background-size: cover;
+  }
+
+h1{
+  font-family: "crete round";
+  margin-left: 16px;
+}
+
+.sans-serif{
+  font-family: sans-serif;
+}
+.cv{
+  width:250px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 600px;
+}
+.grid-one{
+  grid-column: 1;
+}
+.grid-two{
+  grid-column: 2;
+}
+
+#date{
+	padding: 15px 0 15px 40px;
+	list-style: none;
+	background-image: url(icons/calendar_24px.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+  background-size: 30px;
+  margin: 0 -35px 0 -35px;
+
+}
+
+#map{
+  margin: 0 -35px 0 -35px;	
+  padding: 15px 0 15px 40px;
+	list-style: none;
+	background-image: url("icons/marker_24px.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+  background-size: 30px;
+}
+
+#about{
+  margin: 0 -35px 0 -35px;	
+  padding: 15px 0 15px 40px;
+	list-style: none;
+	background-image: url("icons/about_50px.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+  background-size: 30px;
+}
+
+.gridcontainer2{
+display: grid;
+grid-template-columns: 55px 400px;
+}
+.tox-container{
+  display: grid;
+  grid-template-columns: 90px 90px 90px 90px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.tox-container:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
+.tox-item{
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.toxicon{
+  margin-left: 19px;
+  width:32px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+  margin-bottom: -30px;
+  font-size: 15px;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media only screen and (max-width: 814px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 250px 600px;
+    grid-template-rows: 450px;
+  }
+
+  .grid-one{
+    grid-column: 1;
+  }
+  
+  .grid-two{
+    grid-column: 1;
+    grid-row: 2;
+    
+  }
+
+}
