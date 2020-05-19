@@ -1,38 +1,38 @@
-
-body{
-  color: #868686;
-}
 .stroke{
   stroke-width: 8px;
   stroke: white;
   fill: none;
   }
-
+body{
+  color: #765996;
+}
   .background{
   background-color: white;
   background-size: cover;
   }
 
-h1{
-  font-family: "crete round";
-  margin-left: 16px;
+h1, h2, h3{
+  font-family: 'Hind Madurai', sans-serif;
+  text-align: center;
+  color: #47167d;
 }
 
 .sans-serif{
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
 }
+
 .cv{
   width:250px;
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 250px 600px;
+  grid-template-columns: 280px 400px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.grid-one{
-  grid-column: 1;
-}
-.grid-two{
-  grid-column: 2;
+.grid-container:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 }
 
 #date{
@@ -43,7 +43,6 @@ h1{
 	background-position: left center;
   background-size: 30px;
   margin: 0 -35px 0 -35px;
-
 }
 
 #map{
@@ -66,13 +65,13 @@ h1{
   background-size: 30px;
 }
 
-.gridcontainer2{
-display: grid;
-grid-template-columns: 55px 400px;
+#home{
+  padding: 25px;
 }
+
 .tox-container{
   display: grid;
-  grid-template-columns: 90px 90px 90px 90px;
+  grid-template-columns: 118px 118px 118px 118px;
   padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -122,22 +121,54 @@ grid-template-columns: 55px 400px;
   visibility: visible;
 }
 
+#experiencias{
+  display: grid;
+  grid-template-columns: 400px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#experiencias:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
+
+#experiencias{
+  padding: 25px;
+}
+
+.grid-container3{
+  display: grid;
+  grid-template-columns: 400px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.grid-container3:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
+
+#educacion{
+  padding: 25px;
+}
+
 @media only screen and (max-width: 814px) {
 
   .grid-container {
     display: grid;
-    grid-template-columns: 250px 600px;
-    grid-template-rows: 450px;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 280px 400px;
   }
-
   .grid-one{
     grid-column: 1;
+    text-align: center;
   }
-  
   .grid-two{
     grid-column: 1;
     grid-row: 2;
     
   }
+
+
+
+
 
 }
