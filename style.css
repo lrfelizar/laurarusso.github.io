@@ -6,13 +6,13 @@
   align-content: center;
 }
 
-a{
+.navitem{
   padding: 8px;
   color: white;
   text-decoration: none;
 }
 
-a:hover{
+.navitem:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 }
 .stroke{
@@ -47,6 +47,7 @@ h1, h2, h3{
   grid-template-columns: 280px 400px;
   padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
 }
 .grid-container:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
@@ -210,6 +211,12 @@ textarea {
 }
 .btn-form:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
+
+footer{
+  width: auto;
+  text-align: left;
+  padding: 30px;
 }
 
 
