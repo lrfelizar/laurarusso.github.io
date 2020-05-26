@@ -219,6 +219,12 @@ footer{
   padding: 30px;
 }
 
+.footer{
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 11px;
+}
+
 
 @media only screen and (max-width: 814px) {
 
