@@ -11,13 +11,13 @@
 </head>
 <body class="background">
     
-    <div class="topnav">
-        <a href="#home" class="active">Laura Russo</a>
+    <div class="topnav sans-serif">
         <div id="myLinks">
-            <a href="#capacitaciones">Habilidades</a>
-            <a href="#experiencias">Experiencias</a>
-            <a href="#educacion">Educacion</a>
-            <a href="#contacto">Contacto</a>
+            <a href="#home" class="active">Laura Russo</a>
+            <a class="capacitaciones" href="#capacitaciones">Habilidades</a>
+            <a class="experiencias" href="#experiencias">Experiencias</a>
+            <a class="educacion" href="#educacion">Educacion</a>
+            <a class="contacto" href="#contacto">Contacto</a>
         </div>
     </div>
 
@@ -260,38 +260,24 @@
         </div>
     
 </div>
-
-
-        
-
-
-
-
-
-
     </div>
-
-
-
-
-
-
-
     </div>
-    
-    
-   
+<br>
+	<form action="envia.php" method="post" class="form-consulta sans-serif" id="contacto"> 
+		<label>Nombre y apellido: <span>*</span>
+			<input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+		</label>
+		
+		<label>Email: <span>*</span>
+			<input type="email" name="email" placeholder="Email" class="campo-form" required>
+		</label>
+		
+		<label>Consulta:
+			<textarea name="consulta" class="campo-form"></textarea>
+		</label>
 
-
-
-
-
-
-
-    
-
-
-
+		<input type="submit" value="Enviar" class="btn-form">
+	</form>
 
 
     <script src="script.js"></script>

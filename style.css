@@ -1,3 +1,20 @@
+.topnav{
+  background: rgb(181,54,173);
+  background: linear-gradient(77deg, rgba(181,54,173,1) 0%, rgba(245,112,85,1) 100%);
+  border-radius: 10px;
+  padding: 12px 0 12px 0;
+  align-content: center;
+}
+
+a{
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
 .stroke{
   stroke-width: 8px;
   stroke: white;
@@ -6,7 +23,7 @@
 body{
   color: #765996;
 }
-  .background{
+.background{
   background-color: white;
   background-size: cover;
   }
@@ -149,6 +166,52 @@ h1, h2, h3{
 #educacion{
   padding: 25px;
 }
+
+/* reglas CSS para formulario */
+.form-consulta {
+  max-width: 500px; 
+  background: rgb(181,54,173);
+  background: linear-gradient(77deg, rgba(181,54,173,0.1) 0%, rgba(245,112,85,0.1) 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px; 
+}
+.form-consulta:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
+.campo-form {
+  width:100%; 
+  height:36px; 
+  margin:2px 0 6px; 
+  padding-left:6px; 
+  box-sizing: border-box; 
+  border-radius:3px; 
+  border:0; 
+  font-size:1em;
+}
+label span {
+  color: #f00
+}
+textarea {
+  min-height: 150px!important;
+}
+.btn-form {
+  display: inline-block; 
+  border:0; 
+  background: rgb(181,54,173);
+  background: linear-gradient(77deg, rgba(181,54,173,1) 0%, rgba(245,112,85,1) 100%);
+  height: 46px; 
+  line-height: 46px; 
+  padding: 0 20px; 
+  border-radius: 6px; 
+  color:#fff; 
+  text-decoration: none; 
+  text-transform: uppercase; 
+  letter-spacing: 1px
+}
+.btn-form:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
+
 
 @media only screen and (max-width: 814px) {
 
