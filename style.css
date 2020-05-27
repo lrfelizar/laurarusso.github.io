@@ -23,6 +23,12 @@
 body{
   color: #765996;
 }
+
+.imgRedonda {
+  width:250px;
+  height:250px;
+  border-radius:150px;
+}
 .background{
   background-color: white;
   background-size: cover;
@@ -44,14 +50,28 @@ h1, h2, h3{
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 280px 400px;
-  padding: 10px;
+  grid-template-columns: 250px 300px;
+  grid-template-rows: auto auto;
+  padding: 20px;
+  box-sizing: content-box;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-top: 20px;
 }
 .grid-container:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 }
+
+.grid-two{
+  margin-left: 65px;
+}
+
+.grid-three{
+  width: 550px;
+  margin-top: -4px;
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
 
 #date{
 	padding: 15px 0 15px 40px;
