@@ -1,0 +1,27 @@
+* {box-sizing: border-box}
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 25px;
+  height: 20px;
+  margin-top: -10px;
+}
+.skills {
+  text-align: right;
+  color: white;
+  border-radius: 25px;
+  height: 20px;
+  font-size: 12px;
+}
+
+.html {width: 90%; }
+.css {width: 80%;}
+.js {width: 65%;}
+.php {width: 60%;}
+.jquery{width: 60%;}
+.bootstrap{width: 60%;}
+.github{width: 60%;}
+.photoshop{width: 60%;}
+.illustrator{width: 60%;}
+.xd{width: 60%;}
+.ux{width: 60%;}
